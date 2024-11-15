@@ -1,6 +1,6 @@
 <div class="navbar bg-base-100">
     <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl" href="<%= url('/') %>">Climate Solutions</a>
+        <a class="btn btn-ghost normal-case text-xl" href="/">Climate Solutions</a>
     </div>
 
     <div class="dropdown">
@@ -12,16 +12,16 @@
         </label>
         <ul tabindex="0"
             class="menu menu-sm dropdown-content right-0 mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a href="<%= url('/about') %>">About</a></li>
+            <li><a href="/about">About</a></li>
             <li>
                 <details>
                     <summary>
                         Sector
                     </summary>
                     <ul class="p-2 bg-base-100">
-                        <li><a href="<%= url('/solutions/projects?sector=Industry') %>">Industry</a></li>
-                        <li><a href="<%= url('/solutions/projects?sector=transportation') %>">Transportation</a></li>
-                        <li><a href="<%= url('/solutions/projects?sector=electricity') %>">Electricity</a></li>
+                        <li><a href="/solutions/projects?sector=Industry">Industry</a></li>
+                        <li><a href="/solutions/projects?sector=transportation">Transportation</a></li>
+                        <li><a href="/solutions/projects?sector=electricity">Electricity</a></li>
                     </ul>
                 </details>
             </li>
@@ -30,14 +30,14 @@
 
     <div class="navbar-center hidden sm:flex">
         <ul class="menu menu-horizontal px-1">
-            <li><a href="<%= url('/about') %>">About</a></li>
+            <li><a href="/about">About</a></li>
             <li>
                 <details>
                     <summary>Sector</summary>
                     <ul class="p-2 bg-base-100 right-0">
-                        <li><a href="<%= url('/solutions/projects?sector=Industry') %>">Industry</a></li>
-                        <li><a href="<%= url('/solutions/projects?sector=transportation') %>">Transportation</a></li>
-                        <li><a href="<%= url('/solutions/projects?sector=electricity') %>">Electricity</a></li>
+                        <li><a href="/solutions/projects?sector=Industry">Industry</a></li>
+                        <li><a href="/solutions/projects?sector=transportation">Transportation</a></li>
+                        <li><a href="/solutions/projects?sector=electricity">Electricity</a></li>
                     </ul>
                 </details>
             </li>
